@@ -1,0 +1,140 @@
+.pickupstore {
+    padding: 20px;
+}
+
+.from-store {
+    display: flex;
+    align-items: center;
+    background-color: #E9FFE8;
+    padding: 18px 10px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.from-store input[type="radio"] {
+    background-color: #000;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.from-store p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2B2129;
+}
+
+.store-box {
+    background-color: #F2F2F2;
+    padding: 11px 14px 11px 14px;
+}
+
+.store-box h6 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2B2129;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.store-box form {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 12px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.store-box form input[type="text"] {
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+
+.store-box form svg {
+    font-size: 18px;
+}
+
+.item-store {
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 0.3px solid #CFCFCF;
+    margin-bottom: 10px;
+}
+
+.item-store p {
+    font-size: 14px;
+    color: #474747;
+    font-weight: 500;
+}
+
+.item-store img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.store-box button.btn-see {
+    background-color: #FFFFFF;
+    padding: 10px 0;
+    border-radius: 31px;
+    border: none;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 16px;
+    color: #0014C8;
+}
+
+.from-address {
+    display: flex;
+    align-items: center;
+    background-color: #FFF5EA;
+    padding: 18px 10px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.from-address input[type="radio"] {
+    background-color: #000;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.from-address p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2B2129;
+}
+
+.pickupstore .line {
+    margin: 20px 0;
+    position: relative;
+}
+
+.pickupstore .line h5 {
+    color: #474747;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    background-color: #fff;
+    position: absolute;
+    left: 183px;
+    bottom: -6px;
+    width: 50px;
+}
+
+.pickupstore .line::after {
+    content: "";
+    width: 100%;
+    border-top: 0.6px solid #808080;
+    display: block;
+}

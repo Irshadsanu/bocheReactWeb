@@ -1,0 +1,50 @@
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.account-details {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 50px;
+    border-radius: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.account-details h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2B2129;
+    margin-bottom: 20px !important;
+}
+
+.account-details form {
+    margin: 0;
+}
+
+.account-details input {
+    background-color: #F2F2F2;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    color: #2B2129;
+    padding: 14px;
+    border-radius: 20px;
+}
+
+.save-bank {
+    background-color: #FB641B;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+    margin-top: 20px;
+}

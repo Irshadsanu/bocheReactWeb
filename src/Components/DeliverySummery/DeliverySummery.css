@@ -1,0 +1,209 @@
+.delivery-summery-box {
+    border: 1px solid #EBEBEB;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.delivery-summery {
+    width: 100%;
+}
+
+.delivery-summery-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+
+}
+
+.tea-img-tea {
+    background-color: #F7F7F7;
+    border-radius: 8px;
+    padding: 8px;
+    width: 130px;
+    margin-right: 14px;
+}
+
+.tea-img-tea img {
+    display: block;
+    width: 100%;
+}
+
+.delivery-tea-details p {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #666666;
+    font-weight: 500;
+    margin-bottom: 10px !important;
+}
+
+.delivery-tea-details h6 {
+    color: #2B2129;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.delivery-tea-details p span {
+    margin-left: 6px;
+}
+
+.edit-count {
+    display: flex;
+    margin-top: 10px;
+}
+
+.edit-count .edit-inc {
+    border: 0.3px solid #999999;
+    border-radius: 0 5px 5px 0;
+    height: 32px;
+    width: 42px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.edit-dec,
+.edit-inc {
+  user-select: none; /* Prevent text selection */
+}
+
+
+.edit-count .edit-num {
+    border: 0.3px solid #999999;
+    height: 32px;
+    width: 42px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity_div {
+
+    padding: 0 15px 0 15px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    gap: 8px;
+
+}
+
+.edit-count .edit-dec {
+    border: 0.3px solid #999999;
+    border-radius: 5px 0 0 5px;
+    height: 32px;
+    width: 42px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.delivery-amount-summery {
+    border: 1px solid #ebebeb;
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.delivery-amount-summery .delivery-total,
+.delivery-amount-summery .deliver-charges,
+.total_gst_in {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.delivery-amount-summery .delivery-total p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4D4D4D;
+}
+
+.delivery-amount-summery .delivery-total-amount {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    border-top: 1px solid #e6e6e6;
+}
+
+.delivery-amount-summery .delivery-total-amount p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #282828;
+}
+
+.gst_summeryx {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    padding-bottom: 10px;
+}
+
+
+.gst_summeryx h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #2B2129;
+}
+
+
+.delivery-summery-box-cart {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    border: 1px solid #EBEBEB;
+    border-radius: 16px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.single_item_box {
+    width: 20%;
+    margin-bottom: 10px;
+
+}
+
+.single_item_box  img {
+    width: 100%;
+    display: block;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+.title_gram_wrapper {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title_gram_wrapper h5 {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.title_gram_wrapper h6 {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 5px;
+}
+.quantiy_price_wrapper {
+    margin-bottom: 5px;
+    display: flex;
+   flex-direction:  column;
+   align-items: center;
+}
+.quantiy_price_wrapper span {
+    font-size: 13px;
+}
+.quantiy_price_wrapper p {
+    font-size: 12px;
+}

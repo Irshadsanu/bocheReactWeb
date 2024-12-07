@@ -1,0 +1,380 @@
+.store {
+    width: 80%;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.Store_search_bar {
+    width: 100%;
+    display: flex;
+}
+
+.Store_search_bar input {
+    width: 80%;
+    padding: 15px 0 15px 15px;
+    background-color: #f2f2f2;
+    color: #666666;
+    outline: none;
+    border: none;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.icon_box {
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #346f32;
+    color: #fff;
+    border-radius: 0px 15px 15px 0px;
+    gap: 10px;
+}
+
+.content_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.content_head {
+    display: flex;
+    align-items: center;
+}
+
+.content_head h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: grey;
+    margin-bottom: 0;
+}
+
+.content_head p {
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+
+
+
+.location_container {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.location-stateselect h5 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 14px 0 !important;
+}
+
+.location-stateselect select {
+    background-color: #fafafa;
+    border: 0.5px solid #cccccc;
+    border-radius: 8px;
+    padding: 14px;
+    outline: none;
+    width: 40%;
+}
+
+.district {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+
+}
+
+.district_item {
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #2B2129;
+    background-color: #F7F7F7;
+    border-radius: 6px;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease
+}
+
+.district_item:hover {
+    background-color: #E9FFE8;
+}
+
+.district_item.active {
+    background-color: #b0d3ae;
+}
+
+.address_container {
+    width: 100%;
+    padding: 30px 0 30px 0;
+    border-top: 1px solid grey;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.address_container_head {
+    display: flex;
+    margin-bottom: 30px;
+
+
+}
+
+.address_container_head p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* .address_items_container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 300px;
+    gap: 30px;
+} */
+
+.address_items_container {
+    height: 300px;
+    /* Set the desired maximum height */
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    scrollbar-width: none;
+    /* For Firefox */
+    -ms-overflow-style: none;
+    /* For Internet Explorer and Edge */
+    gap: 30px;
+}
+
+.address_items_container::-webkit-scrollbar {
+    display: none;
+    /* For Chrome, Safari, and Opera */
+}
+
+
+.custom-select {
+    -webkit-appearance: none;
+    /* Remove default arrow in Chrome */
+    -moz-appearance: none;
+    /* Remove default arrow in Firefox */
+    appearance: none;
+    /* Remove default arrow in other browsers */
+    background: url('data:image/svg+xml;utf8,<svg fill="%23000000" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>') no-repeat right 10px center;
+    /* Custom arrow */
+    background-color: white;
+    /* Set background color */
+    background-size: none;
+    padding-right: 30px;
+    /* Add padding for the custom arrow */
+    border: 1px solid #ccc;
+    /* Border styling */
+    border-radius: 4px;
+    /* Rounded corners */
+}
+
+.custom-select:focus {
+    outline: none;
+    /* Remove focus outline */
+    border-color: #777;
+    /* Change border color on focus */
+}
+
+
+.Head_text_1 {
+    width: 21%;
+}
+
+
+.address_items {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 15px 20px 20px;
+    background-color: #66666615;
+    border-radius: 8px;
+
+}
+
+.item_1 {
+    width: 26%;
+}
+
+.item_1 p {
+    font-weight: 600;
+}
+
+.address_logo_container {
+    display: flex;
+    width: 80%;
+
+
+}
+
+.item_2 {
+    width: 80%;
+
+}
+
+.item_3 {
+    width: 20%;
+    text-align: right;
+}
+
+.item_3 img {
+    cursor: pointer;
+}
+
+
+
+
+@media (max-width: 1280px) {
+    .store {
+        width: 90%;
+    }
+
+
+}
+
+@media (max-width: 1000px) {
+    .store {
+        width: 95%;
+    }
+
+
+}
+
+@media (max-width: 1040px) {
+
+    .district_item {
+        width: 30%;
+    }
+
+}
+
+@media (max-width: 840px) {
+
+    .district_item {
+        width: 28%;
+    }
+
+    .address_items_container {
+        margin-bottom: 50px;
+    }
+
+
+}
+
+@media (max-width: 900px) {
+
+    .store {
+        width: 100%;
+    }
+
+    .icon_box {
+        width: 30%;
+    }
+
+    .content_head {
+        justify-content: center;
+    }
+
+    .location_details_container {
+        width: 100%;
+    }
+
+    .item_column_contents_text {
+        display: flex;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 760px) {
+    .icon_box {
+        width: 15%;
+    }
+
+    .icon_box p {
+        display: none;
+    }
+
+    .Store_search_bar input {
+        padding: 5px 10 5px 10;
+    }
+
+    .district_item {
+        width: 28%;
+    }
+
+    .location_container h5 {
+        font-size: 15px;
+
+    }
+
+    .item_2 p {
+        font-size: 13px;
+    }
+
+    .location_container {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 660px) {
+
+    .district_item {
+        gap: 10px;
+        width: 45%;
+    }
+
+    .district {
+        gap: 20px;
+    }
+
+    .address_items {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        gap: 20px;
+    }
+
+    .Head_text_1 {
+        display: none;
+    }
+
+    .Head_text_2 {
+        display: none;
+    }
+
+    .address_logo_container {
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .address_items {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .district_item p {
+        font-size: 14px;
+    }
+
+    .district_item img {
+        height: 16px;
+        width: 16px;
+    }
+}

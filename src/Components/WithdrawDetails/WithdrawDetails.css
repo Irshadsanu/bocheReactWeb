@@ -1,0 +1,280 @@
+.withdrawdetails {
+    padding: 40px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.withdrawdetails .balance {
+    margin-bottom: 50px;
+    background-color: #346F32;
+    border-radius: 16px;
+    padding: 10px 14px;
+}
+
+
+.withdrawdetails .balance h6 {
+    font-weight: 600;
+    font-size: 35px;
+    color: #fff;
+}
+
+.withdrawdetails .balance p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    text-align: left;
+}
+
+.back_arrow_container {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.withdrawdetails form {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+
+}
+
+.withdrawdetails input {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 100%;
+    color: #000 !important;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.withdrawdetails input.enter::placeholder {
+    color: #DADADA;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.withdrawdetails p {
+    font-size: 14px;
+    color: #2B2129;
+    font-weight: 500;
+    text-align: center;
+}
+
+.withdrawdetails .amounts {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 0;
+}
+
+.withdrawdetails .amounts li {
+    border-radius: 16px;
+    border: 0.3px solid #2B2129;
+    width: 100px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.withdrawdetails .amounts li p {
+    font-size: 21px;
+    font-weight: 700;
+    color: #2B2129;
+}
+
+.withdrw-bank {
+    background-color: #F2F2F2;
+    border-radius: 16px;
+    padding: 16px 10px;
+    margin-bottom: 30px;
+}
+
+.withdrw-bank h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2B2129;
+    margin-bottom: 20px;
+}
+
+.withdrw-bank .bank-details {
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 10px;
+    background-color: #fff;
+    margin-bottom: 14px;
+}
+
+.withdrw-bank .bank-details .bank p {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+    color: #3f3f3f;
+}
+
+.withdrw-bank .edit-change {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.withdrw-bank .edit-change .edit {
+    background-color: #E9FFE8;
+    border-radius: 36px;
+    width: 56px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-bank {
+    background-color: #346F32;
+    color: #fff;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    border-radius: 31px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.redeembtn {
+    background-color: #FB641B;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+}
+
+@media (max-width:1280px) {
+    .withdrawdetails .amounts li {
+        width: 162px;
+    }
+
+    .withdrawdetails .amounts {
+        gap: 24px;
+    }
+}
+
+@media (max-width:1000px) {
+    .withdrawdetails {
+        width: 70%;
+    }
+}
+
+
+@media (max-width:800px) {
+    .withdrawdetails {
+        width: 80%;
+    }
+}
+
+@media (max-width:640px) {
+    .withdrawdetails {
+        width: 100%;
+    }
+
+}
+
+@media (max-width:480px) {
+    .back_arrow_container {
+        display: none;
+    }
+}
+
+
+
+
+/* aslert coatiner */
+
+
+
+
+.tdscontainter{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+.tdscontainter .tds_box
+ p {
+    font-size: 16px;
+    color: #222121;
+}
+
+.tds_box {
+    width: 619px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+    font-size: 13px;
+    background-color: #ebe7e7;
+    padding: 20px;
+    margin: 0 30px;
+   
+    border-radius: 20px ;
+}
+.text_wrap_alert {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+
+    
+
+}
+.text_wrap_alert p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.btn_container {
+
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 41px;
+
+    
+}
+.btn_container  button {
+    border-radius: 20px;
+    list-style: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+
+}
+.btn_1 {
+   color: rgb(0, 0, 0);
+    background-color: #00000000;
+   
+}
+.btn_2 {
+    color: white;
+    background-color: #FB641B;
+}

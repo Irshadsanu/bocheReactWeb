@@ -1,0 +1,15 @@
+.failed {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.failed .failed-gif {
+    width: 300px;
+}
+
+.failed .failed-gif img {
+    display: block;
+    width: 100%;
+}

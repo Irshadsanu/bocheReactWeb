@@ -1,0 +1,93 @@
+
+
+.multiList {
+    width: 100%;
+    padding: 80px 150px;
+
+}
+.multiList_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 100%;
+}
+
+.multi_item {
+    padding: 10px;
+
+    width: 23%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 4px;
+
+}
+.item_img_div {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 80%; */
+    margin: 0 auto 25px;
+    
+
+}
+
+.item_img_div img {
+    width: 100%;
+    height: 207px;
+    display: block;
+    object-fit: contain;
+
+}
+.hote_tag {
+    position: absolute;
+    top: 10;
+}
+.multi_item h3 {
+    font-size: 16px;
+   
+}
+.price_gram_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.price_gram_wrapper span {
+    font-size: 13px;
+}
+.price_gram_wrapper h6 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.loader-multi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%; 
+}
+
+
+
+@media (max-width:1060px) {
+    .multi_item {
+        width: 30%;
+    }
+}
+@media (max-width:860px) {
+    .multiList{
+        padding: 60px 50px;
+    }
+}
+@media (max-width:580px) {
+    .multi_item {
+        width: 45%;
+    }
+}
+@media (max-width: 392px) {
+    .multiList {
+        padding: 50px 20px;
+    }
+}

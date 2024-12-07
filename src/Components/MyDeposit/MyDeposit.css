@@ -1,0 +1,289 @@
+.mydeposit {
+    padding: 24px;
+    width: 100%;
+    border-radius: 24px;
+    z-index: 900;
+}
+
+.mydeposit .balance {
+    background-color: #346F32;
+    border-radius: 16px;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+}
+
+
+.mydeposit .balance h6 {
+    font-weight: 600;
+    font-size: 35px;
+    color: #fff;
+}
+
+.mydeposit .balance p {
+    font-weight: 500;
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+}
+
+.mydeposit form {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.mydeposit input {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 100%;
+    color: #DADADA;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.mydeposit input.enter::placeholder {
+    color: #DADADA;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.mydeposit input.active.enter {
+    color: #000 !important;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.mydeposit p {
+    font-size: 14px;
+    color: #2B2129;
+    font-weight: 500;
+    text-align: center;
+}
+
+.mydeposit .amounts {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.mydeposit .amounts li {
+    border-radius: 16px;
+    border: 0.3px solid #2B2129;
+    width: 180px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mydeposit .amounts li p {
+    font-size: 21px;
+    font-weight: 700;
+    color: #2B2129;
+}
+
+.error {
+    color: red !important;
+}
+
+.mydeposit button {
+    background-color: #FB641B;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+}
+
+@media (max-width: 1100px) {
+    .mydeposit {
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 900px) {
+    /* .popUp_content {
+        width: 63%;
+    } */
+
+}
+
+@media (max-width: 800px) {
+    /* .popUp_content {
+        width: 66%;
+    } */
+}
+
+@media (max-width: 640px) {
+
+    /* .popUp_content {
+        width: 70%;
+    } */
+}
+
+@media (max-width: 540px) {
+    .mydeposit form {
+        padding-bottom: 10px;
+    }
+
+    .mydeposit .amounts {
+        padding-bottom: 10px;
+    }
+
+    .mydeposit button {
+        padding-bottom: 10px;
+    }
+
+
+
+}
+
+@media (max-width: 480px) {
+    .mydeposit {
+        padding: 40px;
+    }
+
+    .mydeposit .balance {
+        background-color: #346F32;
+        border-radius: 16px;
+        padding: 10px 14px;
+        margin-bottom: 10px;
+    }
+
+
+    .mydeposit .balance h6 {
+        font-weight: 600;
+        font-size: 35px;
+        color: #fff;
+    }
+
+    .mydeposit .balance p {
+        font-weight: 500;
+        color: #fff;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .mydeposit form {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10px;
+
+    }
+
+    .mydeposit input {
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        text-align: center;
+        width: 100%;
+        color: #DADADA;
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+    .mydeposit input.enter::placeholder {
+        color: #DADADA;
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+    .mydeposit input.active.enter {
+        color: #000 !important;
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+    .mydeposit p {
+        font-size: 14px;
+        color: #2B2129;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .mydeposit .amounts {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .mydeposit .amounts li {
+        border-radius: 16px;
+        border: 0.3px solid #2B2129;
+        width: 90px;
+        height: 47px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mydeposit .amounts li p {
+        font-size: 21px;
+        font-weight: 700;
+        color: #2B2129;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .mydeposit form {
+        margin-bottom: 10px;
+    }
+
+    .mydeposit .balance {
+        margin-bottom: 10px;
+    }
+
+    .mydeposit .amounts {
+        padding-bottom: 10px;
+    }
+
+    .mydeposit button {
+        padding-bottom: 10px;
+    }
+}
+
+
+
+@media (max-width: 408px) {
+    .mydeposit form {
+        margin-bottom: 10px;
+    }
+
+    .mydeposit .balance {
+        margin-bottom: 10px;
+    }
+
+    .mydeposit .amounts {
+        padding-bottom: 10px;
+        /* height: 10px; */
+        margin: 10px 0;
+    }
+
+    .mydeposit button {
+        padding-bottom: 10px;
+    }
+
+    .mydeposit {
+        padding: 20px;
+    }
+
+}

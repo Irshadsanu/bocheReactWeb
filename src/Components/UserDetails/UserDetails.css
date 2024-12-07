@@ -1,0 +1,162 @@
+.userdetails {
+    padding: 50px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.userdetails .user-box {
+    background-color: #F3F3F3;
+    padding: 16px 17px;
+    border-radius: 22px;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    text-align: left;
+}
+
+
+.userdetails .user-box h5 {
+    color: #2B2129;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px !important;
+}
+
+.userdetails .user-box form .formbox {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+.userdetails .user-box form .formbox label {
+    font-size: 12px;
+    color: #808080;
+    font-weight: 400;
+    display: block;
+}
+
+.userdetails .user-box form .formbox input {
+    font-weight: 500;
+    font-size: 16px;
+    color: #2B2129;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.userdetails .user-box form .formbox select {
+    font-weight: 500;
+    font-size: 16px;
+    color: #2B2129;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.back_arrow_container_change_address {
+    margin-bottom: 24px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.userdetails .user-box form button {
+    background-color: #FB641B;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+}
+
+@media (max-width: 1000px) {
+    .userdetails {
+        width: 70%;
+    }
+}
+
+@media (max-width: 800px) {
+    .userdetails {
+        width: 80%;
+    }
+}
+
+@media (max-width: 640px) {
+    .userdetails {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .userdetails {
+        padding: 50px;
+    }
+
+    .userdetails .user-box {
+        background-color: #F3F3F3;
+        padding: 16px 17px;
+        border-radius: 22px;
+    }
+
+    .userdetails .user-box h5 {
+        color: #2B2129;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+
+    .userdetails .user-box form .formbox {
+        background-color: #fff;
+        border-radius: 12px;
+        padding: 10px;
+        margin-bottom: 16px;
+    }
+
+    .userdetails .user-box form .formbox label {
+        font-size: 12px;
+        color: #808080;
+        font-weight: 400;
+        display: block;
+    }
+
+    .userdetails .user-box form .formbox input {
+        font-weight: 500;
+        font-size: 16px;
+        color: #2B2129;
+        border: none;
+        outline: none;
+        box-sizing: border-box;
+    }
+
+    .userdetails .user-box form .formbox select {
+        font-weight: 500;
+        font-size: 16px;
+        color: #2B2129;
+        border: none;
+        outline: none;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .userdetails .user-box form button {
+        background-color: #FB641B;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        font-size: 16px;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        padding: 16px;
+    }
+}

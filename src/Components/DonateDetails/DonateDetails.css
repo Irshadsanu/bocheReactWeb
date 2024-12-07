@@ -1,0 +1,715 @@
+.donatedetails {
+    padding: 30px 30px 70px 30px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.donate-detail-box {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.16);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.donate-detail-box .donate-amount .top-donate,
+.donate-detail-box .earned-ticket {
+    display: flex;
+    justify-content: space-between;
+}
+
+.donate-detail-box .donate-amount h6,
+.donate-detail-box .earned-ticket h6 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #2B2129;
+    margin-bottom: 10px !important;
+}
+
+.donate-detail-box .donate-amount p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #2B2129;
+    margin-bottom: 16px;
+}
+
+/* 
+.price-details {
+    background-color: #fff;
+    padding: 10px 15px 10px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.16);
+    margin-bottom: 20px;
+}
+
+.price-details h6 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2B2129;
+    text-align: left;
+}
+
+.price-details .price,
+.price-details .total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.price-details .price h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #2B2129;
+}
+
+.price-details .price h6.freee {
+    color: #346F32;
+}
+
+.price-details .total h6 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #2B2129;
+} */
+
+.my-tickets .ticket-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.my-tickets .ticket-top h6 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2B2129;
+}
+
+.my-tickets .ticket-top button {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0014C8;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.my-tickets ul.tick {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+
+.my-tickets ul.tick li {
+    margin-bottom: 20px;
+    width: 46%;
+    position: relative;
+}
+
+.my-tickets ul.tick .total_content-container {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* .my-tickets ul.tick .total_content-container .ticket-content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+} */
+
+.my-tickets ul.tick .total_content-container .ticket-content .ticketId_contain {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 12px;
+    bottom: 18px;
+    background-color: #851116;
+}
+
+.my-tickets ul.tick .total_content-container .ticket-content .ticketId_contain .tktId {
+    background-color: #fff;
+    color: #000;
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+.time-boxx {
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    bottom: 22px;
+}
+
+.my-tickets ul.tick .total_content-container .ticket-content .ticketId_contain .tsn {
+    background-color: #851116;
+    color: #fff;
+    margin-right: 4px;
+    padding: 0 10px;
+}
+
+.my-tickets ul.tick .total_content-container .ticket-content .ticketId_contain .time-boxx {
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    right: -38px;
+    bottom: -8px;
+}
+
+.tiktDate {
+    font-size: 16px;
+    color: #000;
+    padding: 0 8px;
+}
+
+.channel_id {
+    font-size: 12px;
+    position: absolute;
+    bottom: 3px;
+    left: 16px;
+    color: #fff;
+}
+
+.draw_id {
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    text-align: center;
+}
+
+
+
+.my-tickets ul li img {
+    width: 100%;
+    display: block;
+}
+
+.invoice_container {
+    width: 100%;
+    padding: 18px 0 0 0;
+    /* box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.16); */
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.download {
+    display: flex;
+    gap: 5px;
+    background-color: #346F32;
+    color: #fff;
+    padding: 10px 14px 10px 14px;
+    font-size: 10px;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+
+
+}
+
+.download img {
+    height: 12px;
+    width: 12px;
+}
+
+.download h6 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.download p {
+    font-size: 10px;
+}
+
+
+
+@media (max-width:1280px) {
+
+    .tiktDate,
+    .my-tickets ul.tick .total_content-container .ticket-content .ticketId_contain .tsn,
+    .my-tickets ul.tick .total_content-container .ticket-content .ticketId_contain .tktId {
+        font-size: 12px;
+    }
+
+    .draw_id {
+        font-size: 12px;
+        top: 6px;
+        right: 7px;
+    }
+}
+
+@media (max-width:1000px) {
+    .donatedetails {
+        width: 80%;
+    }
+}
+
+@media (max-width:840px) {
+
+    .tiktDate,
+    .my-tickets ul.tick .total_content-container .ticket-content .ticketId_contain .tsn,
+    .my-tickets ul.tick .total_content-container .ticket-content .ticketId_contain .tktId {
+        font-size: 10px;
+    }
+
+    .draw_id {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:740px) {
+
+    .tiktDate,
+    .my-tickets ul.tick .total_content-container .ticket-content .ticketId_contain .tsn,
+    .my-tickets ul.tick .total_content-container .ticket-content .ticketId_contain .tktId {
+        font-size: 8px;
+    }
+
+    .time-boxx {
+        bottom: 15px;
+    }
+
+    .my-tickets ul.tick .total_content-container .ticket-content .ticketId_contain {
+        left: 7px;
+        bottom: 11px;
+    }
+}
+
+@media (max-width:640px) {
+    .donatedetails {
+        width: 100%;
+    }
+}
+
+@media (max-width:480px) {
+    .my-tickets ul.tick li {
+        width: 100%;
+    }
+
+    .tiktDate,
+    .my-tickets ul.tick .total_content-container .ticket-content .ticketId_contain .tsn,
+    .my-tickets ul.tick .total_content-container .ticket-content .ticketId_contain .tktId {
+        font-size: 12px;
+    }
+
+    .time-boxx {
+        bottom: 22px;
+    }
+
+    .my-tickets ul.tick .total_content-container .ticket-content .ticketId_contain {
+        left: 10px;
+        bottom: 19px;
+    }
+}
+
+
+.invoice {
+    width: 100%;
+    /* background-color: green; */
+    margin: 0 auto;
+    padding: 5px;
+
+
+}
+
+.invoice_main {
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    background-color: #F2F2F2;
+
+
+}
+
+.invoice_head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px 15px 10px;
+    /* background-color: #fff; */
+    border-radius: 15px;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.invoice_head img {
+    width: 60px;
+    height: 50px;
+}
+
+.invoice_head h4 {
+    /* color: green; */
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.office_addrss_container {
+    width: 100%;
+    /* background-color: #808080; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+
+}
+
+.Office_address_1 {
+    width: 55%;
+    /* background-color: #2b212957; */
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    font-weight: 600;
+
+
+
+}
+
+.Office_address_1_sub {
+    width: 55%;
+    /* background-color: #2b212957; */
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    /* font-weight: 600; */
+
+
+
+}
+
+.invoice_main h6 {
+    /* margin: 20px 0 30px 0; */
+    font-weight: 600;
+
+}
+
+.Office_address_2 {
+    width: 40%;
+    /* background-color: #5f074d57; */
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+
+}
+
+.Office_address_2_sub {
+    width: 40%;
+    /* background-color: #5f074d57; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.line_horizondal {
+    width: 100%;
+    height: 2px;
+    border-bottom: 1px dashed black;
+    margin-top: 10px;
+    /* background-color: #2B2129; */
+}
+
+
+
+.invoice_user {
+    text-align: left;
+    padding: 15px 10px;
+
+}
+
+.address_div {
+    width: 40%;
+    /* background-color: #346F32; */
+}
+
+/* --------------------------------------------------- */
+
+
+
+invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* .invoice-table th {
+    border: 1px solid #000;
+    padding: 8px;
+    width: 60px;
+    text-align: left;
+  } */
+/* .item_column {
+    border: 1px solid #000;
+    padding: 8px;
+    width: 60px;
+    text-align: left;
+  } */
+
+.normal_width {
+    border-left: 1px solid #000;
+    padding: 8px;
+    width: 100px;
+}
+
+.min_width {
+    border-left: 1px solid #000;
+    padding: 8px;
+    width: 60px;
+}
+
+.high_width {
+    border-left: 1px solid #000;
+    padding: 8px;
+    width: 162px;
+}
+
+.tab_hgt {
+    border-bottom: 1px solid #000;
+}
+
+
+
+
+
+.invoice-footer {
+    text-align: left;
+}
+
+.content_row {
+    width: 100%;
+}
+
+
+.table_container {
+    width: 930px;
+    display: flex;
+}
+
+.invoice-table_2 {
+    width: 70%;
+    border-collapse: collapse;
+}
+
+
+.invoice-table_2 th,
+.invoice-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.right-align {
+    text-align: left;
+    padding-left: 10px;
+    height: 20px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.declaration {
+    vertical-align: top;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+
+    padding: 10px 30px 10px 10px;
+    font-size: 15px;
+}
+
+.invoice-table {
+    border: 1px solid #000;
+    width: 100%;
+}
+
+
+.table_3 {
+    width: 30%;
+    height: 100px;
+
+}
+
+.left-align {
+    width: 127px;
+    border: 1px solid black;
+    padding-left: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.items_table {
+    width: 100%;
+    /* padding: 15px 10px; */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    gap: 5px;
+
+}
+
+.table_column_head {
+    width: 100%;
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 1px black solid;
+    padding: 5px;
+
+
+}
+
+.table_column_head_items {
+    width: 25%;
+    font-weight: 500;
+}
+
+.table_column_Items_div {
+    width: 100%;
+    display: flex;
+    height: 100%;
+}
+
+.table_column_items {
+    width: 25%;
+}
+
+.items_table_total {
+    width: 100%;
+    display: flex;
+    padding-left: 20px;
+    justify-content: flex-end;
+    margin: 10px 0 10px 0;
+    background-color: rgba(78, 17, 17, 0.171);
+}
+
+.items_table_total div {
+    margin-left: 20px;
+}
+
+.items_total {
+    width: 20%;
+}
+
+.table_column_itemsss {
+    width: 25%;
+    padding: 10px 0 10px 0;
+    color: green;
+    font-weight: 600;
+
+}
+
+.table_column_Items_divvvv {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    border-top: 1px grey solid;
+    border-bottom: 1px grey solid;
+
+
+}
+
+.invoice_TC {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 15px 15px;
+    font-size: 15px;
+}
+
+.invoice_TC_text {
+    text-align: left;
+
+}
+
+.invoice_TC p {
+    font-size: 13px;
+    /* color: #808080; */
+}
+
+.final_text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* color: #808080; */
+    font-size: 13px;
+    padding: 15px 15px;
+    /* background-color: #fff; */
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+}
+
+.final_text span p {
+    color: #808080;
+    font-size: 13px;
+}
+
+.share_box {
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+
+}
+
+
+.share_box_content {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    background-color: green;
+    padding: 25px 0;
+    border-radius: 20px;
+    margin: 60px 0 30px 0;
+}
+
+.share_box_content h6 {
+    margin: 0 !important;
+    color: white;
+}
+
+.table_bottom_text {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.table_bottom_text h6 {
+    text-align: right;
+}
+
+.signature_div {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.signature_div h6 {
+    text-align: right;
+}

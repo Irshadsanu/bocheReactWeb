@@ -1,0 +1,245 @@
+.registration {
+    background-color: #fff;
+    /* padding: 80px 20px 70px 30px; */
+    padding: 65px 20px 59px 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 56%;
+    margin: 60px auto 60px;
+    box-shadow: 4px 4px 17.1px 0 rgba(0, 0, 0, 0.13);
+    border-radius: 30px;
+}
+
+.registration .img-box {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.registration .register-box {
+    text-align: center;
+    margin-top: 57px;
+    padding: 0 20px;
+}
+
+.registration .img-box p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #808080;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.registration .img-box h5 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2B2129;
+    margin-bottom: 20px !important;
+}
+
+.register-box input {
+    border-radius: 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 18px;
+    background-color: #F2F2F2;
+}
+.register-box input::-webkit-outer-spin-button,
+.register-box input::-webkit-inner-spin-button {
+    -webkit-appearance: none; /* Hide the arrows */
+    margin: 0; /* Remove any default margin */
+}
+
+
+
+.select-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .register-box select.reg-state {
+    border-radius: 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 18px;
+    background-color: #F2F2F2;
+  
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  .select-wrapper::after {
+    content: '';
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000;
+    transform: translateY(-50%);
+  }
+
+
+.register-box button.reg-b {
+    background-color: #FB641B;
+    border-radius: 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 auto 14px;
+    color: #fff;
+}
+
+.register-box .resend {
+    outline: none;
+    background: transparent;
+    border: none;
+    color: #346F32;
+    font-weight: 600;
+    font-size: 18px;
+    border-bottom: 2px solid #346F32;
+    text-align: center;
+    margin-top: 6px;
+}
+
+@media (max-width: 1000px) {
+    .registration {
+        width: 70%;
+    }
+}
+
+@media (max-width: 800px) {
+    .registration {
+        width: 80%;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .registration {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .registration {
+        background-color: #fff;
+        padding: 100px 20px 70px 30px;
+        /* height: 100vh; */
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        box-shadow: none;
+    }
+
+    .registration .img-box {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+
+    .registration .register-box {
+        text-align: center;
+        margin-top: 100px;
+        padding: 0 20px;
+    }
+
+    .registration .img-box p {
+        font-size: 12px;
+        font-weight: 400;
+        color: #808080;
+    }
+
+    .registration .img-box h5 {
+        font-size: 32px;
+        font-weight: 700;
+        color: #2B2129;
+        margin-bottom: 20px;
+    }
+
+    .register-box input {
+        border-radius: 20px;
+        box-sizing: border-box;
+        max-width: 100%;
+        padding: 13px;
+        border: none;
+        outline: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 18px;
+        background-color: #F2F2F2;
+        
+    }
+
+    .register-box select.reg-state {
+        border-radius: 20px;
+        box-sizing: border-box;
+        max-width: 100%;
+        padding: 13px;
+        border: none;
+        outline: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 18px;
+        background-color: #F2F2F2;
+    }
+
+    .register-box button.reg-b {
+        background-color: #FB641B;
+        border-radius: 20px;
+        box-sizing: border-box;
+        max-width: 100%;
+        padding: 13px;
+        border: none;
+        outline: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 14px;
+    }
+
+    .register-box .resend {
+        outline: none;
+        background: transparent;
+        border: none;
+        color: #346F32;
+        font-weight: 600;
+        font-size: 16px;
+        border-bottom: 2px solid #346F32;
+        text-align: center;
+        margin-top: 6px;
+    }
+}

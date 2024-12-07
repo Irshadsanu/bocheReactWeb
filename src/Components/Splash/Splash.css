@@ -1,0 +1,44 @@
+.splash {
+    height: 86vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .splash .boche-splash {
+    width: 200px;
+} */
+
+.splash .boche-splash img {
+    width: 100%;
+    display: block;
+}
+
+.nuerospine {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.nuerospine img {
+    width: 100%;
+    display: block;
+}
+
+/* Loader.css */
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Adjust as needed */
+}
+
+.loader {
+    font-size: 24px;
+    /* Adjust font size */
+    font-weight: bold;
+    color: #000;
+    /* Adjust text color */
+    /* Add loader animation styles if desired */
+}

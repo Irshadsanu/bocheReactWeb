@@ -1,0 +1,237 @@
+/* web */
+.head-web {
+    background: #346F32;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+.head-web .web-logo {
+    width: 59px;
+}
+
+.head-web .web-logo img {
+    display: block;
+    width: 100%;
+}
+
+.head-web .nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.head-web .nav li {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.head-web .nav .link {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.head-web .nav .link.active {
+    color: #FFEE01;
+}
+
+.head-web .nav .link.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #FFEE01;
+    transition: width 0.3s;
+}
+
+.head-web .user-web {
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.head-web .user-web img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-text {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f7;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.icon_user_defaul {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #f7f7f7;
+
+}
+
+.name_number {
+    display: flex;
+    flex-direction: column;
+}
+
+.name_number h6 {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 300;
+
+}
+
+.name_number p {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 300;
+
+}
+
+
+
+
+@media (max-width: 1280px) {
+    .head-web {
+        padding: 0 70px;
+    }
+
+    .head-web .nav {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .head-web {
+        padding: 0 40px;
+    }
+
+
+    .head-web .nav {
+        gap: 17px;
+    }
+
+    .head-web .nav li {
+        font-size: 14px;
+    }
+}
+
+/* web-end */
+@media (max-width: 920px) {
+    .head-web {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 870px) {
+    header {
+        background: #346F32;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        flex-direction: row-reverse;
+    }
+
+    header h3 {
+        
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    header img {
+        display: block;
+        width: 100%;
+    }
+
+    .user-img {
+        width: 50px;
+
+    }
+
+    .user-img img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+
+    }
+
+    .boche-logo {
+        width: 50px;
+    }
+}
+
+
+
+.user_icon_wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.icon_notiCart {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart_icon_wrapper {
+    width: 100%;
+    position: relative;
+}
+.quantity_badge {
+    padding: 1px 12px;
+    background-color: rgb(233, 4, 4);
+    color: #fff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -5px;
+    left: 15px;
+    right: 0;
+}
+.quantity_badge span {
+    font-size: 10px;
+}
+.icon_notiCart img {
+
+    display: block;
+    width: 100%;
+}
+
+.header_icon_wrapper {
+    display: flex;
+    gap: 13px;
+}

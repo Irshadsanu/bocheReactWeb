@@ -1,0 +1,130 @@
+.change-addres {
+    width: 60%;
+    margin: 50px auto 0;
+}
+
+.back_arrow_container_change_address {
+    margin-bottom: 24px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.address-lists {
+    padding: 30px;
+}
+
+.address-itemm {
+    display: flex;
+    align-items: center;
+    border: 1px solid #474747;
+    padding: 10px;
+    border-radius: 21px;
+    margin-bottom: 20px;
+}
+
+.address-itemm input[type="radio"] {
+    width: 20px;
+    height: 20px;
+}
+
+.address-itemm .address-boxx {
+    padding: 16px 14px;
+    border-radius: 12px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.address-itemm .address-boxx:last-child {
+    margin-bottom: 0;
+}
+
+.address-itemm .address-boxx .edit-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.address-itemm .address-boxx .edit-top .location {
+    background-color: #346F32;
+    border-radius: 41px;
+    height: 34px;
+    width: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-itemm .address-boxx .edit-top .edit {
+    background-color: #F3F3F3;
+    border-radius: 36px;
+    outline: none;
+    border: none;
+    width: 56px;
+    height: 34px;
+}
+
+.address-itemm .address-boxx h6 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2B2129;
+}
+
+.address-itemm .address-boxx p {
+    font-size: 12px;
+    color: #474747;
+    font-weight: 400;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.change-bbtn {
+    background-color: #346F32;
+    color: #fff !important;
+    border-radius: 31px;
+    padding: 10px 0;
+    max-width: 100%;
+    width: 50%;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-address-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size: 10px;
+}
+
+
+@media (max-width:1000px) {
+    .change-addres {
+        width: 70%;
+    }
+
+}
+
+@media (max-width:800px) {
+    .change-addres {
+        width: 80%;
+    }
+}
+
+@media (max-width:640px) {
+    .change-addres {
+        width: 90%;
+    }
+}
+
+@media (max-width:640px) {
+    .change-addres {
+        width: 100%;
+    }
+}

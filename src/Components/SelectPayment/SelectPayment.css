@@ -1,0 +1,526 @@
+.selectpayment {
+    padding: 0px 30px;
+    width: 100%;
+    /* margin: 0 auto; */
+}
+
+.selectpayment .my-wallet {
+    padding: 18px 16px;
+    border-radius: 16px;
+    background-color: #346F32;
+    margin-bottom: 20px;
+}
+
+.selectpayment h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2B2129;
+    margin: 16px 0;
+}
+
+.selectpayment .my-wallet h6 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+}
+
+.selectpayment p.balance {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* .selectpayment p {
+    font-size: 40px;
+    font-weight: 700;
+    color: #346F32;
+    text-align: center;
+    display: none;
+} */
+
+.selectpayment .use-wallet {
+    padding: 18px 16px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #e2e2e2;
+    transition: .3s ease-in-out;
+}
+
+.selectpayment .use-wallet.choosed {
+    background-color: #E9FFE8;
+
+}
+
+/* ------------------------------------- */
+
+.question_box_main {
+    /* border: 1px solid #c0bbbb; */
+    background-color: #E9FFE8;
+
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    /* width: 50%; */
+}
+
+.question_box_main h5 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #2B2129;
+}
+
+.question_box_main span {
+    color: #808080;
+    font-size: 14px;
+}
+
+.correct {
+    /* color: rgb(4, 153, 4); */
+    background-color: #346F32 !important;
+    color: #ffff;
+}
+
+.wrong {
+    background-color: #E80000 !important;
+    color: #ffff;
+}
+
+.problem {
+    display: flex;
+    gap: 10px;
+    font-weight: 600;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.question_ {
+    display: flex;
+    gap: 10px;
+
+}
+
+
+.question_ p {
+    font-weight: 600;
+    color: #2B2129;
+    font-size: 26px;
+}
+
+.question_ span {
+    font-weight: 600;
+    color: #2B2129;
+    font-size: 26px;
+}
+
+.option_box {
+    display: flex;
+    gap: 15px;
+    /* row-gap: 5px; */
+    flex-wrap: wrap;
+    margin-top: 15px;
+
+}
+
+.options {
+    padding: 10px 25px 10px 25px;
+    /* border: 1px solid black; */
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.089), 0 2px 4px rgba(0, 0, 0, 0.082);
+    cursor: pointer;
+    background-color: #FFFF;
+}
+
+
+.selectpayment .active-payment.use-wallet {
+    align-items: flex-start;
+
+}
+
+.selectpayment .use-wallet .top span {
+    font-size: 12px;
+    font-weight: 500;
+    display: block;
+
+}
+
+.selectpayment .use-wallet .bottom-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.selectpayment .use-wallet .bottom-box .price-input {
+    display: flex;
+    align-items: center;
+
+}
+
+.selectpayment .use-wallet .bottom-box .price-input span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: #346F32;
+    width: 30px;
+    height: 30px;
+}
+
+.selectpayment .use-wallet .bottom-box .price-input span svg {
+    fill: #fff;
+}
+
+.selectpayment .use-wallet .bottom-box input[type="radio"] {
+    width: 20px;
+    height: 20px;
+
+}
+
+.selectpayment .use-wallet .bottom-box input.price-input {
+    width: 120px;
+    padding: 8px 16px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    border: none;
+    margin-top: 16px;
+
+    background-color: #F2F2F2;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.selectpayment .use-wallet .bottom-box input.price-input::placeholder {
+    font-size: 14px;
+}
+
+.selectpayment .use-wallet .bottom-box button {
+    display: block;
+
+}
+
+.selectpayment .use-wallet .top span.paid-price {
+    color: #346F32;
+}
+
+.selectpayment .use-wallet:hover {
+    background-color: #E9FFE8;
+
+}
+
+.selectpayment .use-wallet h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2B2129;
+    margin-bottom: 0;
+}
+
+.selectpayment .use-wallet svg {
+    color: #000;
+}
+
+.option-wallet-web {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #E6E6E6;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.option-wallet-web .mixed-balance {
+    display: flex;
+    align-items: center;
+}
+
+.option-wallet-web .mixed-balance .icon-wallet {
+    background-color: #346F32;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.option-wallet-web .mixed-balance .icon-wallet svg {
+    color: #fff;
+    font-size: 20px;
+}
+
+.order-button-dt {
+    display: flex;
+}
+
+.order-button-dt .remiann {
+    display: none;
+}
+
+.order-button-dt .place-amount {
+    width: 40%;
+    padding: 12px 0;
+}
+
+.order-button-dt .place-amount h6 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #2B2129;
+}
+
+.order-button-dt .place-amount h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2B2129;
+    font-family: sans-serif;
+}
+
+.btn-backx {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 30px;
+    position: absolute;
+    left: 80px;
+    top: 130px;
+}
+
+.placholder-pay {
+    background-color: #FB641B;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+}
+
+@media (max-width: 1000px) {
+    /* .selectpayment {
+        width: 70%;
+    } */
+}
+
+@media (max-width: 800px) {
+    /* .selectpayment {
+        width: 80%;
+    } */
+}
+
+@media (max-width: 640px) {
+    /* .selectpayment {
+        width: 100%;
+    } */
+
+    /* .selectpayment p {
+        display: block;
+    } */
+}
+
+@media (max-width: 570px) {
+    .order-button-dt {
+        flex-direction: column;
+    }
+
+    .order-button-dt .place-amount {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .place-amount h6 {
+        margin-right: 10px;
+    }
+
+    .btn-backx {
+        left: 10px;
+        top: 110px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* .btn-backx {
+        display: none;
+    } */
+
+    .order-button-dt .place-amount {
+        display: block;
+    }
+
+    .order-button-dt .place-amount {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 10px;
+
+    }
+
+    .selectpayment {
+        padding: 50px 0px;
+    }
+
+    .selectpayment .my-wallet {
+        padding: 18px 16px;
+        border-radius: 16px;
+        background-color: #346F32;
+        margin-bottom: 20px;
+    }
+
+    .selectpayment h4 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #2B2129;
+        margin: 16px 0;
+    }
+
+    .selectpayment .my-wallet h6 {
+        font-size: 12px;
+        font-weight: 500;
+        color: #fff;
+        margin: 0;
+    }
+
+    /* .selectpayment p {
+        font-size: 40px;
+        font-weight: 700;
+        color: #346F32;
+        text-align: center;
+    } */
+
+    .selectpayment .use-wallet {
+        padding: 18px 16px;
+        border-radius: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        border: 1px solid #e2e2e2;
+        transition: .3s ease-in-out;
+    }
+
+    .selectpayment .use-wallet.choosed {
+        background-color: #E9FFE8;
+
+    }
+
+
+    .selectpayment .active-payment.use-wallet {
+        align-items: flex-start;
+
+    }
+
+    .selectpayment .use-wallet .top span {
+        font-size: 12px;
+        font-weight: 500;
+        display: block;
+
+    }
+
+    .selectpayment .use-wallet .bottom-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+
+    }
+
+    .selectpayment .use-wallet .bottom-box .price-input {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .selectpayment .use-wallet .bottom-box .price-input span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        margin-left: 10px;
+        background-color: #346F32;
+        width: 30px;
+        height: 30px;
+    }
+
+    .selectpayment .use-wallet .bottom-box .price-input span svg {
+        fill: #fff;
+    }
+
+    .selectpayment .use-wallet .bottom-box input[type="radio"] {
+        width: 20px;
+        height: 20px;
+
+    }
+
+    .selectpayment .use-wallet .bottom-box input.price-input {
+        width: 120px;
+        padding: 8px 16px;
+        border-radius: 16px;
+        margin-bottom: 16px;
+        font-size: 14px;
+        border: none;
+        margin-top: 16px;
+
+        background-color: #F2F2F2;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    }
+
+    .selectpayment .use-wallet .bottom-box input.price-input::placeholder {
+        font-size: 14px;
+    }
+
+    .selectpayment .use-wallet .bottom-box button {
+        display: block;
+
+    }
+
+    .selectpayment .use-wallet .top span.paid-price {
+        color: #346F32;
+    }
+
+    .selectpayment .use-wallet:hover {
+        background-color: #E9FFE8;
+
+    }
+
+    .selectpayment .use-wallet h5 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #2B2129;
+        margin-bottom: 0;
+    }
+
+    .selectpayment .use-wallet svg {
+        color: #000;
+    }
+
+    /* .btn-backx {
+        display: none;
+    } */
+}
+
+@media (max-width: 390px) {
+    .options {
+        padding: 8px 18px 8px 18px;
+    }
+}

@@ -1,0 +1,107 @@
+.payment-web {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.switch-bt {
+    width: 80%;
+    margin: 30px auto 0;
+}
+
+.btn-del {
+    background-color: #FB641B;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+}
+
+.web-payment-box {
+    width: 65%;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.delivery-summery-main {
+    width: 32%;
+}
+
+.fade-enter {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 500ms, transform 500ms;
+}
+
+.fade-exit {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 500ms, transform 500ms;
+}
+
+@media (max-width:1280px) {
+    .delivery-summery-main {
+        width: 40%;
+    }
+
+    .web-payment-box {
+        width: 56%;
+    }
+}
+
+@media (max-width:1100px) {
+    .payment-web {
+        padding: 100px 50px;
+    }
+}
+
+@media (max-width:900px) {
+    .payment-web {
+        flex-direction: column-reverse;
+    }
+
+    .delivery-summery-main {
+        width: 60%;
+        margin: 0 auto 30px;
+    }
+
+    .web-payment-box {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:700px) {
+    .delivery-summery-main {
+        width: 80%;
+    }
+
+    .web-payment-box {
+        width: 100%;
+    }
+}
+
+@media (max-width:540px) {
+    .delivery-summery-main {
+        width: 100%;
+    }
+}
+
+@media (max-width:480px) {
+    .payment-web {
+        padding: 100px 30px;
+    }
+}

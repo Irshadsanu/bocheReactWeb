@@ -1,0 +1,19 @@
+.depositsucces .img-gif {
+    width: 300px;
+}
+
+.depositsucces .img-gif img {
+    display: block;
+    width: 100%;
+}
+
+.depositsucces {
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+
+}

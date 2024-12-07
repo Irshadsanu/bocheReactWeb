@@ -1,0 +1,49 @@
+@media (max-width: 480px) {
+    .earning-total {
+        padding: 50px 40px;
+    }
+
+    .earning-amout {
+        background-color: #346F32;
+        border-radius: 30px;
+        padding: 16px 18px;
+        text-align: center;
+    }
+
+    .earning-amout h6 {
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .earning-amout h5 {
+        font-size: 46px;
+        color: #ffd502;
+        font-weight: 600;
+    }
+
+    .single-amout {
+        padding: 50px 0;
+    }
+
+    .single-amout .single-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 16px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        padding: 14px;
+        margin-bottom: 20px;
+    }
+
+    .single-amout .single-item .date-time p {
+        font-size: 12px;
+        color: #434343;
+    }
+
+    .single-amout .single-item h4 {
+        font-size: 20px;
+        color: #434343;
+        font-weight: 400;
+    }
+}

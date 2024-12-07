@@ -1,0 +1,468 @@
+.success {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    width: 100%;
+    /* margin-top: 50px; */
+    overflow: hidden;
+    height: 100%;
+    position: fixed;
+
+}
+
+.win_and_congradas {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.success_container {
+    /* height: 100vh; */
+    /* background-color: #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    width: 100%;
+    position: relative;
+    z-index: 4;
+}
+
+.success ::-webkit-scrollbar {
+    display: none;
+}
+
+.congrats {
+    width: 100%;
+    top: 130px;
+    /* opacity: 0;
+    animation: congrats 2s ease-in-out forwards;
+    animation-delay: .5s; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.success_div_sub {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(0, 128, 0, 0.733); */
+    height: 400px;
+}
+
+/* .star_container {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 400px;
+
+} */
+
+.star_container img {
+    display: block;
+    width: 360px;
+}
+
+.star-box {
+    width: 100%;
+}
+
+
+
+
+.success .img-gif {
+    width: 300px;
+}
+
+.success .img-gif img {
+    display: block;
+    width: 100%;
+}
+
+/* .animation-container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: scale(0);
+    transition: 1s ease;
+    animation: circle 2s ease-in-out forwards;
+    bottom: 0;
+} */
+@keyframes circle {
+    0% {
+        bottom: -50%;
+        border-radius: 50%;
+        background-position: bottom;
+    }
+
+    100% {
+        bottom: 30%;
+        border-radius: 0%;
+        background-position: top;
+    }
+}
+
+.animation-container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: 1s ease;
+    animation: circle 2s ease-in-out forwards;
+    bottom: -80%;
+}
+
+.circle-gree {
+    display: block;
+    width: 130%;
+    height: 120%;
+    background: linear-gradient(to top, #346f32 0%, #346f32 100%);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -84%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.win {
+    text-align: center;
+}
+
+@keyframes starAnimation {
+    0% {
+        transform: translate(0%, 5%) scale(0);
+    }
+
+    100% {
+        transform: translate(0%, 5%) scale(1);
+    }
+}
+
+.star_container {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.star_container img {
+    animation: starAnimation 2s ease-in-out;
+    transform: translate(0%, 5%);
+}
+
+
+/* .animation-container .circle {
+    display: block;
+    width: 600px;
+    height: 600px;
+    background: #346f32;
+    position: fixed;
+    bottom: -50%;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%) scale(0);
+    transition: 1s ease;
+    animation: circle 2s ease-in-out forwards;
+} */
+
+/* .animation-container .star-box {
+    transform: translate(50%, -50%) scale(0);
+    animation: star 2s ease-in-out forwards;
+    animation-delay: 1s;
+} */
+.coupon_btn_container {
+    /* background-color: rgb(11, 139, 118); */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+
+}
+
+/* .circle-gree {
+    display: block;
+    width: 600px;
+    height: 600px;
+    background: #346f32;
+    border-radius: 50%;
+}
+
+@keyframes circle {
+    0% {
+        bottom: -50%;
+        transform: translateX(-50%) scale(0);
+    }
+
+    100% {
+        left: 50%;
+        transform: translateX(-50%) scale(3);
+    }
+
+} */
+
+@keyframes star {
+    0% {
+
+        transform: translate(50%, -50%) scale(0);
+    }
+
+    100% {
+        transform: translate(50%, -50%) scale(1);
+    }
+
+}
+
+.tickets {
+
+
+    width: 360px;
+    /* margin-left: 40px; */
+    /* opacity: 0; */
+    /* animation: tickets 2s ease-in-out forwards; */
+    /* animation-delay: 2s */
+}
+
+.tickets img {
+    width: 100%;
+
+}
+
+/* @keyframes tickets {
+    0% {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+
+        opacity: 1;
+    }
+
+} */
+
+
+
+.bottom-btn {
+    background: yellow;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 16px;
+    width: 360px;
+    /* animation: btn 1s ease-in-out forwards; */
+    /* animation-delay: 3s; */
+    /* opacity: 0; */
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 50px;
+}
+
+@keyframes congrats {
+    0% {
+        top: 130px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 80px;
+        opacity: 1;
+    }
+
+}
+
+@keyframes btn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+/* 
+@media (max-width:1555px) {
+    .animation-container .circle {
+        width: 500px;
+        height: 500px;
+        bottom: -60%;
+    }
+
+    .tickets {
+        bottom: 200px;
+        right: -75%;
+        width: 94%;
+        transform: translateX(-50%) !important;
+    }
+
+    .bottom-btn {
+        width: 400px;
+    }
+
+    .animation-container .star-box {
+        bottom: 200px;
+    }
+
+
+}
+
+@media (max-width: 660px) {
+    .success {
+        width: 100%;
+    }
+
+    .tickets {
+        right: -50%;
+    }
+}
+
+.win {
+    position: relative;
+    z-index: 99;
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+    opacity: 0;
+    animation: win 1s ease-in-out forwards;
+    animation-delay: 5s;
+
+}
+
+.win h3 {
+    font-size: 20px;
+}
+
+
+@keyframes win {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+} */
+/* 
+@media (max-width: 560px) {
+    .animation-container .circle {
+        height: 600px;
+    }
+
+    .animation-container .star-box {
+        top: 56%;
+    }
+
+    .tickets {
+        bottom: 300px;
+
+    }
+}
+
+
+@media (max-width: 480px) {
+    .animation-container .circle {
+        height: 600px;
+    }
+
+    .animation-container .star-box {
+        top: 56%;
+    }
+
+    .tickets {
+        bottom: 350px;
+
+    }
+}
+
+@media (max-width: 400px) {
+    .animation-container .circle {
+        height: 540px;
+    }
+
+    .animation-container .star-box {
+        top: 53%;
+    }
+
+    .tickets {
+        bottom: 220px;
+
+    }
+
+    .win {
+        padding-top: 115px;
+    }
+}
+
+@media (max-width: 380px) {
+    .animation-container .circle {
+        height: 440px;
+    }
+
+    .animation-container .star-box {
+        top: 46%;
+    }
+
+    .tickets {
+        bottom: 140px;
+
+    }
+
+    .congrats {
+        top: 60px !important;
+    }
+} */
+
+@media (max-width: 480px) {
+    .circle-gree {
+        width: 175%;
+    }
+
+
+
+    .tickets {
+        width: 320px;
+    }
+
+    .bottom-btn {
+        width: 326px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .star_container img {
+        transform: translate(0%, -5%);
+    }
+
+    .tickets {
+        margin-top: -46px;
+    }
+
+    /* .circle-gree {
+        height: 960px;
+    } */
+
+    .success {
+        margin-top: 0;
+    }
+
+    .bottom-btn {
+        bottom: 24px;
+    }
+
+}

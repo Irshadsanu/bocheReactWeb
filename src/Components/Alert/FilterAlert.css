@@ -1,0 +1,60 @@
+.Filter_alert_container {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Filter_alert_container h6 {
+    font-weight: 700;
+}
+
+.input_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.input_container label {
+    font-size: 14px;
+}
+
+.chice_container {
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.filter_btn_container {
+    width: 100%;
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: end;
+}
+
+.filter_btn_container button {
+    padding: 5px 18px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.clrear {
+    background: none;
+    outline: none;
+    color: #2B2129;
+}
+
+.apply {
+    background: #FB641B;
+    outline: none;
+    color: white;
+}

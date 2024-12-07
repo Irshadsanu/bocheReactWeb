@@ -1,0 +1,17 @@
+.btn {
+    padding: 0 50px 50px 50px;
+    width: 100%;
+    margin-bottom: 90px;
+}
+
+.btn button {
+    background-color: #FB641B;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+}

@@ -1,0 +1,112 @@
+.coupenbox {
+    width: 55%;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.alert1 {
+    width: 100%;
+    padding: 50px;
+}
+
+.btncoupe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* margin-top: 20px; */
+    position: relative;
+}
+
+.coupenbox h6,
+.coupenbox p {
+    margin-bottom: 18px !important;
+}
+
+.btncoupe .btncoupe-can,
+.btncoupe .btncoupe-red {
+    font-size: 10px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    width: 126px;
+    height: 46px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.btncoupe-red {
+    background-color: #f00b0b;
+    color: #fff;
+}
+
+.btncoupe-can {
+    color: #f00b0b;
+}
+
+.checkBox {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.checkBox_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+
+.checkBox_wrapper p {
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+    text-align: left;
+}
+
+.coupon_tems {
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+    margin-top: 20px;
+}
+
+.checkBox input {
+    width: 13px;
+}
+
+.boxxe {
+    width: 100%;
+    padding: 60px 100px;
+}
+
+.lottie-app {
+    position: absolute;
+    left: 116px;
+    bottom: 0;
+}
+
+.btncoupe-view {
+    font-size: 10px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    width: 116px;
+    height: 36px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+    cursor: pointer;
+    background-color: #FB641B;
+    color: #fff;
+    z-index: 900;
+    border-radius: 20px;
+}
+
+.ticket-redeem-box {
+    width: 100%;
+}

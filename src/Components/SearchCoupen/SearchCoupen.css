@@ -1,0 +1,72 @@
+.coupen-ticket {
+    padding: 50px 150px;
+}
+
+.coupen-ticket .single-ticket {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+.coupen-ticket .single-ticket li {
+    width: 30%;
+}
+
+.coupen-ticket .single-ticket li img {
+    width: 100%;
+    display: block;
+}
+
+.coupen-ticket button {
+    background-color: #FB641B;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+    /* position: fixed;
+    bottom: 10px; */
+
+}
+
+@media (max-width:800px) {
+    .coupen-ticket {
+        padding: 50px 100px;
+    }
+
+    .coupen-ticket button {
+        padding: 12px;
+    }
+}
+
+@media (max-width:640px) {
+    .coupen-ticket .single-ticket li {
+        width: 100%;
+    }
+
+    .coupen-ticket button {
+        width: 50%;
+    }
+}
+
+@media (max-width:480px) {
+    .coupen-ticket {
+        padding: 50px;
+    }
+
+    .coupen-ticket .single-ticket li {
+        width: 100%;
+    }
+
+    .coupen-ticket button {
+        width: 50%;
+    }
+}
